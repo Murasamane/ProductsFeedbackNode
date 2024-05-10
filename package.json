@@ -1,0 +1,32 @@
+{
+  "name": "productfeedbacknode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Murasamane/ProductsFeedbackNode.git"
+  },
+  "author": "Giorgi Gurgenidze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Murasamane/ProductsFeedbackNode/issues"
+  },
+  "homepage": "https://github.com/Murasamane/ProductsFeedbackNode#readme",
+  "devDependencies": {
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "mongoose": "^5.13.22",
+    "morgan": "^1.10.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "mongodb": "^6.3.0",
+    "nanoid": "^3.3.7"
+  }
+}
